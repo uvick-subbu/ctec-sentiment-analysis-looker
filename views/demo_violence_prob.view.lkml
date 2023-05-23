@@ -1,5 +1,5 @@
 view: demo_violence_prob {
-  sql_table_name: `icyclops-sentiment-analysis.twitter_sentiment_curated_sample.d_demo_violence_prob`
+  sql_table_name: `icyclops-sentiment-analysis.twitter_sentiment_curated_sample.d_demo_violence_prob_vw`
     ;;
 
   dimension: county {
