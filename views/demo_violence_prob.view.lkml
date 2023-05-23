@@ -36,6 +36,6 @@ view: demo_violence_prob {
 
   measure: avg_probability {
     type: average
-    sql: ${TABLE}.violence_probability ;;
+    sql: ${TABLE}.violence_probability;;
   }
 }
