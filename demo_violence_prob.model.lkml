@@ -19,4 +19,6 @@ include: "/views/demo_violence_prob.view.lkml"                # include all view
 #   }
 # }
 
-explore: demo_violence_prob {}
+explore: demo_violence_prob {
+  persist_for: "0 seconds"
+}
