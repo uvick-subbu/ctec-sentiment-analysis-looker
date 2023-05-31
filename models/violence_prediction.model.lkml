@@ -18,11 +18,10 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 #     sql_on: ${users.id} = ${orders.user_id} ;;
 #   }
 # }
-
-explore: violence_predictions {
+explore: violence_event_source_model {
   persist_for: "0 seconds"
 }
 
-explore:  filter_selection{
+explore: filter_selection {
   persist_for: "0 seconds"
 }
