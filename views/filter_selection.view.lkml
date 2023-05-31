@@ -256,7 +256,7 @@ view: filter_selection {
   measure: avg_probability {
     type: average
     sql: ${TABLE}.prob ;;
-    filters: [prob: "NOT NULL"]
+    filters: [prob: ">=0"]
     drill_fields: []
   }
 }
