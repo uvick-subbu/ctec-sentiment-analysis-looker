@@ -98,7 +98,7 @@ view: violence_event_source_model {
     sql: ${TABLE}.jun ;;
   }
 
-  dimension: location {
+  dimension: city {
     type: string
     sql: ${TABLE}.location ;;
   }
