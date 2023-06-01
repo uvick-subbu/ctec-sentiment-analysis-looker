@@ -1,4 +1,5 @@
 view: filter_selection {
+  label: ""
   sql_table_name: `icyclops-sentiment-analysis.violence_prediction.filter_selection`
     ;;
 

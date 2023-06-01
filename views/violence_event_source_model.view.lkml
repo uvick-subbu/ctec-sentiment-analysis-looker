@@ -1,4 +1,5 @@
 view: violence_event_source_model {
+  label: ""
   sql_table_name: `icyclops-sentiment-analysis.violence_prediction.violence_event_source_model`
     ;;
 
