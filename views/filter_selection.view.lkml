@@ -98,7 +98,7 @@ view: filter_selection {
     sql: ${TABLE}.jun ;;
   }
 
-  dimension: location {
+  dimension: city {
     type: string
     sql: ${TABLE}.location ;;
   }
