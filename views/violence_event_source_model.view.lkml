@@ -1,6 +1,6 @@
 view: violence_event_source_model {
   label: ""
-  sql_table_name: `icyclops-sentiment-analysis.violence_prediction.violence_event_source_model`
+  sql_table_name: `icyclops-sentiment-analysis.violence_prediction.violence_event_source_model_file_june`
     ;;
 
   dimension: _2020_presidential_election_margin_state {
